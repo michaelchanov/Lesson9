@@ -18,5 +18,7 @@ class MainActivity : AppCompatActivity() {
         btn_counter.setOnClickListener {
             tv_counter.text = list.random()
         }
+
+        // Kotlin is cool!
     }
 }
